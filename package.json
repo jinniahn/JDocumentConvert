@@ -1,0 +1,21 @@
+{
+  "name": "jdocconvert",
+  "version": "1.0.0",
+  "description": "JDocConvert is to help you convert data to pdf document. When you have some csv, json data to convert pdf file, JDocConvert would give simple way to archieve what you want.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "html-pdf": "^1.4.0",
+    "jade": "^1.11.0",
+    "underscore": "^1.8.3"
+  }
+}

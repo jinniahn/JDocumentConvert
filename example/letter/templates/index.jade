@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    title Document
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+    style
+      include ./components/bootstrap/dist/css/bootstrap.min.css
+    style
+      include ./components/bootstrap/dist/css/bootstrap-theme.min.css
+    style
+    //link(href='components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+    //link(href='components/bootstrap/dist/css/bootstrap-theme.min.css', rel='stylesheet')    
+    //link(href="css/magiceco.css", rel="stylesheet")
+    script(type='text/javascript', src="components/jquery/dist/jquery.min.js")
+  body
+    .container
+      .from_address
+        pre.
+          Urna Semper
+          1234 Main Street
+          Anytown, State ZIP
+          123-456-7890
+          no_reply@example.com
+
+      .to_address
+        pre.
+          September 13, 2015
+          Trenz Puca
+          4321 First Street
+          Anytown, State ZIP
+
+      .to Dear
+        =to
+
+      .contents 
+        each content in contents
+          p
+             =content
+        p.
+          Sincerely yours,
+
+      .from 
+        =from
+
+
+
